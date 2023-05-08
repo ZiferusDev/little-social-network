@@ -1,26 +1,35 @@
 :root {
-    --local-purple: #654F88;
+    --input-purple: #654F88;
 }
+
 
 .field {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
+    
 }
 
 .label {
-    
+
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
 }
 
 .input {
     margin-top: 5px;
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
     height: 28px;
-    background-color: var(--local-purple);
+    background-color: var(--input-purple);
     
     color: white;
 
     outline: none;
     border: none;
     border-radius: 16px;
+
+
+    
 }

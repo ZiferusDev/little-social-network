@@ -1,0 +1,25 @@
+:root {
+    --main-color: #323232;
+}
+
+@font-face {
+    font-family: "Pelinka_light";
+    src: url("../assets/Pelinka-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: "Pelinka_bold";
+    src: url("../assets/Pelinka-Bold.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pelinka_light";
+}
+
+body {
+    background-color: var(--main-color);
+    background-size: 85%;
+    background-image: url("../assets/Фон\ авторизации.jpg");
+}

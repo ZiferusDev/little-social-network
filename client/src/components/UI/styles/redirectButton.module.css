@@ -1,0 +1,18 @@
+:root {
+    --button-blue: #4C99C3;
+}
+
+.button {
+    align-self: center;
+    width: 30vw;
+    height: 8vh;
+
+    cursor: pointer;
+    background-color: var(--button-blue);
+    border: none;
+    border-radius: 16px;
+
+    font-family: "Pelinka_bold";
+    font-size: 20px;
+    color: white;
+}
