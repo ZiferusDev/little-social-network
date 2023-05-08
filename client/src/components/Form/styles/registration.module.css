@@ -1,0 +1,32 @@
+:root {
+    --form-purple: #7857AD;
+    --button-blue: #4C99C3;
+}
+
+.registration {
+    margin: 0;
+    padding: 40px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-image: url("../../../assets/Фон\ авторизации.jpg");
+    
+    color: white;
+
+}
+
+.form {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+    width: 40vw;
+    background-color: var(--form-purple);
+
+    border-radius: 16px;
+
+}

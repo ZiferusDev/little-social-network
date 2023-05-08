@@ -1,0 +1,26 @@
+:root {
+    --local-purple: #654F88;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.label {
+    
+}
+
+.input {
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 28px;
+    background-color: var(--local-purple);
+    
+    color: white;
+
+    outline: none;
+    border: none;
+    border-radius: 16px;
+}
